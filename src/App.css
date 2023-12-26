@@ -1,0 +1,102 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 18rem;
+  margin: 10px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.btn-light {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.single-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+
+.metrics {
+  text-align: center;
+}
+
+.metrics h1 {
+  font-size: 2rem;
+  display: inline; /* Added this line to make h1 inline */
+}
+
+.metrics p {
+  margin-top: 5px;
+  display: inline-block; /* Added this line to make p inline-block */
+}
+
+/* Button group styles */
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .container {
+    padding: 10px;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .card {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .btn {
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
