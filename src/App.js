@@ -12,20 +12,20 @@ const App = () => {
       <div className="mt-10 text-center">
         <p>Epic Games: An American Video Game And Software Developer And Publisher Based In Cary, North Carolina</p>
         
-        <img src="/assets/download (1).jpg" alt="fortnite.jpg" className="img-fluid" />
+        <img src={fortniteImage} alt="fortnite.jpg" className="img-fluid" />
         <p> </p>
         <button type="button" className="btn btn-light">Visit Website</button>
         <div className="card-group">
           <div className="card">
-            <img src="/assets/images1.jpg" className="card-img-top" alt="fortnite1" />
+            <img src={image1} alt="fortnite1" className="card-img-top" />
             <p className="mt-3 single-line"> Explore Large, Destructible Environments <br/>Where No Two Games Are Ever The Same</p>
           </div>
           <div className="card">
-            <img src="/assets/download2.jpg" className="card-img-top" alt="fortnite2" />
+            <img src={image2} className="card-img-top" alt="fortnite2" />
             <p className="mt-3 single-line">Team Up With Friends By Sprinting,<br/> Climbing And Smashing Your Way To<br/> Earn Your Victory Royale</p>
           </div>
           <div className="card">
-            <img src="/assets/download4.jpg" className="card-img-top" alt="fortnite3" />
+            <img src={image3}className="card-img-top" alt="fortnite3" />
             <p className="mt-3 single-line">Discover Even More Ways To Play Across <br/>Thousands Of Creator-Made Game Genres
 </p>
           </div>
